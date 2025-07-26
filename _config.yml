@@ -2,16 +2,16 @@
 ## 文档: https://hexo.io/docs/configuration.html
 ## 源码: https://github.com/hexojs/hexo/
 
-# 站点
+# 站点配置
 title: GTAmod中文组
 subtitle: ''
 description: ''
 keywords:
-author: 好事民
+author: 好事民无力组
 language: zh-CN
 timezone: ''
 
-# URL
+# URL 配置
 ## 在此设置您的站点URL。例如，如果您使用GitHub Page，将URL设置为'https://username.github.io/project'
 url: http://example.com
 permalink: :year/:month/:day/:title/
@@ -20,7 +20,7 @@ pretty_urls:
   trailing_index: true # Set to false to remove trailing 'index.html' from permalinks
   trailing_html: true # Set to false to remove trailing '.html' from permalinks
 
-# 目录
+# 目录配置
 source_dir: source
 public_dir: public
 tag_dir: tags
@@ -30,7 +30,7 @@ code_dir: downloads/code
 i18n_dir: :lang
 skip_render:
 
-# 写作
+# 写作配置
 new_post_name: :title.md # File name of new posts
 default_layout: post
 titlecase: false # Transform title into titlecase
@@ -56,24 +56,24 @@ prismjs:
   tab_replace: ''
 
 # 首页设置
-# path: Root path for your blogs index page. (default = '')
-# per_page: Posts displayed per page. (0 = disable pagination)
-# order_by: Posts order. (Order by date descending by default)
+# path: 博客首页的根路径（默认为空）
+# per_page: 每页显示的文章数量（0表示禁用分页）
+# order_by: 文章排序（默认按日期降序排列）
 index_generator:
   path: ''
   per_page: 10
   order_by: -date
 
-# 分类和标签
+# 分类和标签配置
 default_category: uncategorized
 category_map:
 tag_map:
 
-# 元数据元素
+# 元数据元素配置
 ## https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta
 meta_generator: true
 
-# 日期/时间格式
+# 日期/时间格式配置
 ## Hexo 使用 Moment.js 来解析和显示日期
 ## 您可以自定义日期格式，定义参考
 ## http://momentjs.com/docs/#/displaying/format/
@@ -82,23 +82,23 @@ time_format: HH:mm:ss
 ## updated_option supports 'mtime', 'date', 'empty'
 updated_option: 'mtime'
 
-# 分页
-## Set per_page to 0 to disable pagination
+# 分页配置
+## 将 per_page 设置为 0 以禁用分页
 per_page: 10
 pagination_dir: page
 
-# 包含/排除文件
+# 包含/排除文件配置
 ## include:/exclude: 选项仅适用于 'source/' 文件夹
 include:
 exclude:
 ignore:
 
-# 扩展
+# 扩展配置
 ## 插件: https://hexo.io/plugins/
 ## 主题: https://hexo.io/themes/
 theme: butterfly
 
-# 部署
+# 部署配置
 ## 文档: https://hexo.io/docs/one-command-deployment
 deploy:
   type: ''
