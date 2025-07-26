@@ -1,8 +1,8 @@
-# Hexo Configuration
-## Docs: https://hexo.io/docs/configuration.html
-## Source: https://github.com/hexojs/hexo/
+# Hexo 配置
+## 文档: https://hexo.io/docs/configuration.html
+## 源码: https://github.com/hexojs/hexo/
 
-# Site
+# 站点
 title: GTAmod中文组
 subtitle: ''
 description: ''
@@ -12,7 +12,7 @@ language: zh-CN
 timezone: ''
 
 # URL
-## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
+## 在此设置您的站点URL。例如，如果您使用GitHub Page，将URL设置为'https://username.github.io/project'
 url: http://example.com
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -20,7 +20,7 @@ pretty_urls:
   trailing_index: true # Set to false to remove trailing 'index.html' from permalinks
   trailing_html: true # Set to false to remove trailing '.html' from permalinks
 
-# Directory
+# 目录
 source_dir: source
 public_dir: public
 tag_dir: tags
@@ -30,7 +30,7 @@ code_dir: downloads/code
 i18n_dir: :lang
 skip_render:
 
-# Writing
+# 写作
 new_post_name: :title.md # File name of new posts
 default_layout: post
 titlecase: false # Transform title into titlecase
@@ -55,7 +55,7 @@ prismjs:
   line_number: true
   tab_replace: ''
 
-# Home page setting
+# 首页设置
 # path: Root path for your blogs index page. (default = '')
 # per_page: Posts displayed per page. (0 = disable pagination)
 # order_by: Posts order. (Order by date descending by default)
@@ -64,41 +64,41 @@ index_generator:
   per_page: 10
   order_by: -date
 
-# Category & Tag
+# 分类和标签
 default_category: uncategorized
 category_map:
 tag_map:
 
-# Metadata elements
+# 元数据元素
 ## https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta
 meta_generator: true
 
-# Date / Time format
-## Hexo uses Moment.js to parse and display date
-## You can customize the date format as defined in
+# 日期/时间格式
+## Hexo 使用 Moment.js 来解析和显示日期
+## 您可以自定义日期格式，定义参考
 ## http://momentjs.com/docs/#/displaying/format/
 date_format: YYYY-MM-DD
 time_format: HH:mm:ss
 ## updated_option supports 'mtime', 'date', 'empty'
 updated_option: 'mtime'
 
-# Pagination
+# 分页
 ## Set per_page to 0 to disable pagination
 per_page: 10
 pagination_dir: page
 
-# Include / Exclude file(s)
-## include:/exclude: options only apply to the 'source/' folder
+# 包含/排除文件
+## include:/exclude: 选项仅适用于 'source/' 文件夹
 include:
 exclude:
 ignore:
 
-# Extensions
-## Plugins: https://hexo.io/plugins/
-## Themes: https://hexo.io/themes/
+# 扩展
+## 插件: https://hexo.io/plugins/
+## 主题: https://hexo.io/themes/
 theme: butterfly
 
-# Deployment
-## Docs: https://hexo.io/docs/one-command-deployment
+# 部署
+## 文档: https://hexo.io/docs/one-command-deployment
 deploy:
   type: ''
